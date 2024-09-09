@@ -7,23 +7,7 @@
 - [x] **LISTA DE CPFS**
 - [x] **GERADOR DE CPF VERIFICADO**
 - [x] **VERIFICADOR DE CPF**
-# Instalação
-**1.** Atualize o Termux.
+# Comando de instalação
 ```
-pkg install update yy pkg install upgrade
-```
-**2.** Instale o Python e Git.
-```
-pkg install python yy pkg install git
-```
-**3.** Instale o DataPainel.
-```
-git clone https://github.com/p3dro-yon/DataPainel-Termux
-```
-**4.** Abra a pasta do DataPainel e execute o arquivo .pyc.
-```
-cd DataPainel-Termux
-```
-```
-python DataPainel-0.1.pyc
+pkg install update yy pkg install upgrade && pkg install python && pkg install git && git clone https://github.com/p3dro-yon/DataPainel-Termux; cd DataPainel-Termux; python DataPainel-0.1.pyc
 ```
