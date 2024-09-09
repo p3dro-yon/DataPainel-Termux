@@ -16,3 +16,14 @@ pkg install update yy pkg install upgrade
 ```
 pkg install python yy pkg install git
 ```
+**3.** Instale o DataPainel.
+```
+git clone https://github.com/p3dro-yon/DataPainel-Termux
+```
+**4.** Abra a pasta do DataPainel e execute o arquivo .pyc.
+```
+cd DataPainel-Termux
+```
+```
+python DataPainel-0.1.pyc
+```
